@@ -1,0 +1,29 @@
+<!-- page-home.html -->
+<h1>Angular Animations Shenanigans</h1>
+<h2>Home</h2>
+<a class="btn btn-primary"  ng-click="lions = !lions" ng-class="{ active: lions }">Toggle Lions</a>
+<a href="#about" class="btn btn-success btn-lg">About</a>
+<a href="#contact" class="btn btn-danger btn-lg">Contact</a>
+<a class="btn btn-primary" ng-click="cranes = !cranes" ng-class="{ active: cranes }">Toggle Cranes</a>
+
+<header class="text-center">
+	
+	
+</header>
+
+<div class="row">
+	<div class="col-xs-4 col-xs-offset-2">
+
+		<div class="jumbotron" ng-show="lions">
+			<img src="http://hd.wallpaperswide.com/thumbs/lion_5-t2.jpg" class="img-responsive img-thumbnail">
+		</div>
+
+	</div>
+	<div class="col-xs-4">
+
+		<div class="jumbotron" ng-show="cranes">
+			<img src="http://rowe.audubon.org/sites/default/files/photos/_asc1186_sandhill_crane.jpg" class="img-responsive img-thumbnail">
+		</div>
+
+	</div>
+</div>

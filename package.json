@@ -1,0 +1,22 @@
+{
+  "name": "angular-singlePageApp",
+  "version": "1.0.0",
+  "description": "Simple single page app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boothd/angular-singlePageApp.git"
+  },
+  "author": "Boothd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boothd/angular-singlePageApp/issues"
+  },
+  "homepage": "https://github.com/Boothd/angular-singlePageApp",
+  "dependencies": {
+    "method-override": "^2.3.2"
+  }
+}
